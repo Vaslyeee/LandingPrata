@@ -1,0 +1,131 @@
+body {
+   font-family: "Prata-Regular", sans-serif; 
+   background-color: #8741D4;
+   
+}
+
+.header {
+    background-image: url("../img/wall.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between; /* justify-content свойство, которое выравнивает элементы внутри контейнера по основной (горизонтальной) оси */
+}
+
+.content {
+   margin: 0 auto;
+   width: 1280px;
+   display: flex;  /* контейнер управляет блоками */
+   position: relative;
+   border-left: #ffffff 2px solid;
+   border-right: #ffffff 2px solid;
+   height: 900px;
+}
+
+.frame {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.tree {
+    z-index: 1;
+}
+
+.witch {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.char {
+    position: absolute;
+    z-index: 3;
+    font-size: 110px;
+    text-transform: uppercase;
+    /* left: 600px;
+    bottom: 0;
+    width: 1px; */
+    color: #8741D4;
+}
+
+.char1 {
+transform: rotate(-40deg);
+top: 110px;
+left: 400px;
+}
+
+.char2 {
+    transform: rotate(-25deg);
+    top: 65px;
+    left: 480px;
+}
+
+.char3 {
+    transform: rotate(0deg);
+    height: 860px;
+    top: 40px;
+    left: 600px;
+}
+
+.char4{
+    transform: rotate(25deg);
+    top: 65px;
+    right: 480px;
+}
+
+.char5{
+    transform: rotate(40deg);
+    top: 110px;
+    right: 400px;
+}
+
+.book-section {
+background-image: url("../img/books.png");
+flex-direction: column;
+}
+
+.book-section__title {
+    color: white;
+    font-size: 48px;
+    margin-top: 63px;
+    margin-left: 88px;
+}
+
+.about {
+    margin: 85px 0px 0px 88px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    color: rgb(135, 65, 212);
+    padding-left: 26px;
+}
+
+.about-title {
+    font-size: 30px;
+    margin-top: 46px;
+
+}
+
+.about-text {
+    font-size: 28px;
+    line-height: 38px
+}
+
+.about-subtext {
+    font-size: 25px;
+    line-height: 34px
+}
+.about-text__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text__last {
+    font-size: 25px;
+    line-height: 34px
+}
