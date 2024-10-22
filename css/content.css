@@ -87,6 +87,7 @@ left: 400px;
 .book-section {
 background-image: url("../img/books.png");
 flex-direction: column;
+position: relative;
 }
 
 .book-section__title {
@@ -131,14 +132,15 @@ flex-direction: column;
 }
 
 .book-container {
-    margin: 515px 0px 0px 481px;
     display: flex;
     flex-direction: column;
-    color: rgb(135, 65, 212);
-    padding-left: 26px;
+    color: rgb(0, 0, 0);
     position: absolute;
     width: 261.51px;
     height: 369.45px;
-    transform: rotate(10.92deg)
+    transform: rotate(10.92deg);
+    left: 551.01px;
+    top: 1415px;
+    z-index: 3;
 
 }
